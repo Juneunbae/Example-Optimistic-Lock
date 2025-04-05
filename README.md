@@ -34,7 +34,7 @@ public class Product {
 }
 ```
 
-## PESSIMISTIC_WRITE
+## ProductService OptimisticLock
 ```java
 @Transactional
 public void updateProductPrice(Long id, double price) {
